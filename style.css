@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+   
+   
+
+   height: 100vh;
+
+} 
+
+.login-box{
+
+height: 100%;
+width: 100%;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+form{
+  
+   max-width: 90%;
+
+    padding: 50px 30px 20px;
+    padding: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+    position: relative;
+  
+}
+.input-form{
+    padding: 30px;
+
+}
+label{
+    padding-right:20px ;
+    font-size: 20px;
+}
+input{
+   background: transparent;
+   border: 0;
+   font-size: 16px;
+   height: 30px;
+   padding-left: 20px;
+   text-align: center;
+}
+#send-message{
+    height: 100px;
+    width: 250px;
+    text-align: center;
+}
+span{
+    color: red;
+    position: absolute;
+    padding-left: 20px;
+}
+button{
+margin-left: 50%;
+height: 30px;
+width: 50px;
+background-color: red;
+}
+button:hover{
+    background-color: white;
+}
